@@ -11,11 +11,11 @@ Just tap into My Hero List to learn about the heroes around us in the field of p
 ‘My Hero List’ will return information on few of my heroes in my list per API request. Results are in JSON format. 
 
 Instructions 
-Endpoint: http://myheroapi-nadeem.azurewebsites.net/ 
+Endpoint: http://myheroapi-nadeem.azurewebsites.net/Getheroes
 
 Using My-Hero-List requires knowing how to interpret query strings, use query string variables, and JSON formatting. 
 
-Authorization is not required to use My-Hero-List as it is considered an open source. So no API key is needed. Supply the query string variable and value to the endpoint for each request in a format like http://myheroapi-nadeem.azurewebsites.net/GetHeroes?id=1
+Authorization is not required to use My-Hero-List as it is considered an open source. So no API key is needed. Supply the query string variable and value to the endpoint for each request in a format like http://myheroapi-nadeem.azurewebsites.net/Gethero?id=1
 
 My-Hero-List will return the HTTP status code of 404 (if Azure service is not available) back to your application. My-Hero-List is in production so developers are welcome to use it. This is subject to change upon subsequent releases of My-Hero-List. 
 
